@@ -1,0 +1,38 @@
+/* StudentPage.css */
+.student-form-container {
+    max-width: 400px;
+    margin: 10px auto; /* Add margin to both top and bottom, auto to center horizontally */
+    padding: 20px;
+    background-color: #d8b9ff; /* Decent Purplish Color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .student-form input,
+  .student-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .student-form button {
+    background-color: #800080; /* Dark Purple */
+    color: #fff;
+    margin: auto 150px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .student-form button:hover {
+    background-color: #4b0082; /* Slightly Darker Purple on Hover */
+  }
+  
